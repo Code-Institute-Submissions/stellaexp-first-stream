@@ -94,9 +94,16 @@ a:visited, a:link, a:active{
 	text-align: center;
 }
 
+/* Reservations */
 
-.form-container {
-	padding: 2em 38em;
+#container-form {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+#form-reservation {
+    text-align: center;
 }
 
 /*reference/credit for sizing here: https://gist.github.com/bradfrost/2096790*/
