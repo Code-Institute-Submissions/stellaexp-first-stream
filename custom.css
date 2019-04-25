@@ -80,12 +80,13 @@ a:hover {
 a:visited, a:link, a:active{
 	text-decoration: none
 }
-/* Looked up - https://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link/*
+/* Looked up - https://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link*/
+
 
 /*Menu CSS*/
 
 #menu {
-	padding: 80px;
+	max-width: 800px;
 }
 /*Contact CSS*/
 
@@ -117,6 +118,11 @@ input {
 	text-align: center;
 }
 
+input.btn.btn-success {
+    width: 90%;
+    margin-top: 10px;
+}
+
 ::-webkit-input-placeholder {
    color: #808080;
    text-align: center;
@@ -135,5 +141,27 @@ input {
    height: 400px;
    background-color: grey;
  }
+
+ @media screen and (max-width: 992px) {
+ .jumbotron {
+ 	background-size: cover;
+ 	padding: 20px;
+ }
+ #menu {
+ 	max-width: 600px;
+ }
+}
+
+@media screen and (max-width: 600px) {
+	.jumbotron {
+ 	background-size: cover;
+ 	padding: 20px;
+ }
+  #menu {
+ 	max-width: 300px;
+ }
+}
+
+
 
 

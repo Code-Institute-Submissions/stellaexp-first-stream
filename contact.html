@@ -8,15 +8,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-
     <title>The Thali Rooms - Contact</title>
 
     <!-- CDN google fonts and font awesome-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +34,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-      <!-- date picker https://eonasdan.github.io/bootstrap-datetimepicker/Installing/-->
+    <!-- date picker https://eonasdan.github.io/bootstrap-datetimepicker/Installing/-->
     <script type="text/javascript" src="bower_components/dist/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -60,82 +57,79 @@
           </button>
           <a class="navbar-brand" href="index.html">The Thali Rooms</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="collapse navbar-collapse"><!--responsive navbar-->
           <ul class="nav navbar-nav navbar-right">
             <li><a href="vision.html">Vision</a></li>
             <li><a href="menu.html">Menu</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div><!--end responsive nav -->
       </div>
     </nav>
 
     <div class="container-fluid">
-        <br>
-        <h1>Reservations</h1>
-        <br>
+      <br>
+      <h1>Reservations</h1>
+      <br>
     </div>
         
-      <!--<form>-->
-    <div id="container-form" class="center">
-      <form id="form-reservation" action="" method="POST">
-        <div class="form-row">
-          <div class="form-group col-md-6">
-              <label for="first_name">First</label>
-              <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First name" required>
+    <!-- Start of form -->
+      <div id="container-form" class="center">
+        <form id="form-reservation" action="" method="POST">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="first_name">First</label>
+                <input type="first_name" id="first_name" class="form-control" name="first_name" placeholder="First name" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="last_name">Surname</label>
+                <input type="last_name" id="last_name" class="form-control" name="last_name" placeholder="Last name" required>
+            </div>
+          </div>       
+          <div class="form-row">
+            <div class="form-group col-md-12"> 
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" name="email" placeholder="example@thalirooms.com" required>
+            </div>
+          </div>  
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="phone">Telephone</label>
+              <input type="phone" id="phone" class="form-control" name="phone" placeholder="Telephone number" required>
+            </div>
+          </div>  
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="select">Attendees</label>
+                  <select id="attendees" class="form-control">
+                    <option>Attendees</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7+</option>
+                  </select>
+            </div>
           </div>
-          <div class="form-group col-md-6">
-              <label for="last_name">Surname</label>
-              <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last name" required>
-          </div>
-        </div>
-          
-        <div class="form-row">
-          <div class="form-group col-md-12"> 
-            <label for="email">Email</label>
-            <input type="text" class="form-control" id="email" name="email" placeholder="example@thalirooms.com">
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group col-md-12">
-            <label for="phone">Telephone</label>
-            <input type="number" class="form-control" id="phone" name="phone" placeholder="Telephone number">
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group col-md-12">
-            <label for="select">Attendees</label>
-                <select id="attendees" class="form-control">
-                  <option>Attendees</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7+</option>
-                </select> 
-          </div>
-        </div>
-        
-        <button type="button" class="btn btn-info">Submit!</button>
-
-
+          <br>
+          <br>      
+          <input type="submit" class="btn btn-success" style="width: 90%;" value="Submit">
       </form>
     </div>
 
-      <br>
-      <br>
+    <br>
+    <br>
+    
+    <h3>Find Us!</h3>
+    <br>
+    <div id="map"></div>
 
-      <h3>Find Us!</h3>
-      <br>
-      <div id="map"></div>
-
-      <hr>
-      <footer>
-         <p>The Thali Rooms 2018 &copy;</p>
-      </footer>
+    <hr>
+    <footer>
+        <p>The Thali Rooms 2018 &copy;</p>
+    </footer>
+    
   </body>
 
 
