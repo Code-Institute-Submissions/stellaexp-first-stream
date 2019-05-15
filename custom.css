@@ -64,7 +64,14 @@ footer {
 	background-size: cover;
 	background-repeat: no-repeat;
     -webkit-background-size: cover;
+    background-size: cover;
     padding: 250px;
+}
+
+@media only screen and (max-width: 800px) {
+  #jumbotron-vision {
+    background-position: center;
+  }
 }
 
 #vision {
@@ -82,7 +89,47 @@ a:visited, a:link, a:active{
 }
 /* Looked up - https://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link*/
 
+/*#img-container {
+	display: flex;
+	/*padding: 20px;*/
+/*
 
+.in-row {
+	margin: 20px;
+	flex: 33.33%;
+}*/
+#flex {
+	display: flex;
+	justify-content: space-around;
+
+}
+.square-box {
+	background-color: #f1f1f1;
+  	width: 250px;
+  	margin: 10px;
+  	text-align: center;
+  	line-height: 250px;
+}
+
+.square-box-button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+	background-color: #f1f1f1;
+  	width: 250px;
+  	text-align: center;
+  	line-height: 20px;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+}
 /*Menu CSS*/
 
 #menu {

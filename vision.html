@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
 
     <title>The Thali Rooms - Vision</title>
 
@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,15 +28,6 @@
     <!-- Custom styles for this template -->
     <link href="custom.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
@@ -68,20 +60,41 @@
     <br>
 
       <div class="container">
-          <h1>Our Vision</h1>
-      </div>
-
+        
+        <h1>Our Vision</h1>
         <div id="vision">
-          <p>When we started this journey it was really important to not only replicate the most authentic Thali you could have outside of India, but to contribute positively to towards <a href="https://www.actionagainsthunger.org/" target="blank">Action Against Hunger</a>. We ensure all our paying diners that we contribute 10% of our profits to AAH and we have rotating dishes on the menu of which a higher proportion of profit will go towards the charity. You can find these on the menu marked by an asterix.</p> 
+          <p>When we started this journey it was really important to not only replicate the most authentic Thali you could have outside of India, but to contribute positively to towards <a href="https://www.actionagainsthunger.org/" target="blank">Action Against Hunger</a>. We ensure all our paying diners that we contribute 10% of our profits to AAH and we have rotating dishes on the menu of which a higher proportion of profit will go towards the charity. Ask your server for details.</p> 
             <h4>*</h4> 
-          <p>By dining at The Thali Rooms you will help the fight to end world hunger.</p>
+            <p>Find out more about Action Against Hunger and help the fight to end world hunger.</p>
         </div>
 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TUEBf9-oxcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <div id="flex-container">
-          <div class="flex-box"></div>
-          <div class="flex-box"></div>
-          <div class="flex-box"></div>
+        <h4>*</h4> 
+
+        <p>Our three main ethos</p>
+
+        <div id="flex" class="container">
+          <div class="row">
+            <div class="col col-sm-4">
+              <div class="square-box">
+                <div class="square-box-button">Environmental</div>
+                <div class="some-text description">We're commited to looking after the environment and we don't offer single use plastics, all takeouts come in biodegradable <a href="https://www.vegware.com/" target="blank">Vegware.</a> As for our ingredients, we have a strict no air freight policy to help reduce our carbon footprint. We compost all our food scraps and actively fight food waste.</div>
+              </div>
+            </div>
+            <div class="col col-sm-4">
+              <div class="square-box">
+                <div class="square-box-button">Sustainability</div>
+                <div class="next-text description">We only use seasonal produce, which is ethically sourced. We pride ourselves on our close relationship with our suppliers and offer traceability on all our ingredients. Our menu is always changing based on what is currently in season, if you have any questions on this please ask your server.</div>
+              </div>
+            </div>
+            <div class="col col-sm-4">
+              <div class="square-box">
+                <div class="square-box-button">Community</div>
+                <div class="other-text"><div class="description">Community is at the heart of what we do, as part of our effort to reduce food waste, we donate spare meals to local homeless charities. We also run monthly workshops on topics such as food waste and upcycling - see our notice board for details.</div></div>
+              </div>
+            </div>
+          </div>
         </div>
 
       <hr>
@@ -97,16 +110,22 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="js/custom.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
     <script>
       $(document).ready(function(){
+        $('.some-text, .next-text, .other-text').hide().next();
 
+        $('.square-box-button').click(function(){
+          $(this).next().slideToggle('.some-text, .next-text, .other-text');
 
+        });
+        $('p').fadeIn(1000);
       });
 
     </script>
+
   </body>
 </html>
