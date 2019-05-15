@@ -4,6 +4,11 @@ One or two paragraphs providing an overview of your project.
 Essentially, this part is your sales pitch.
 
 ## UX
+
+My UX process was to think what a user would want from a restaurant website. I started by researching what other restaurants included on their site and constructed some wireframes based on my research and knowledge.
+
+I wanted the website to be clean and simple.
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -15,6 +20,18 @@ This section is also where you would share links to any wireframes, mockups, dia
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ## Existing Features
+1. Sticky Navbar
+* However far the user scrolls down, they will always have navigation at the top of their screen.
+* On mobile, it utilises Bootstraps responsive 'Hamburger' menu
+2. CSS on hover button
+* This entices users to click on the button, to lead them onto finding out more about the restaurant.
+3. jQuery Toggle Functionality
+* Invited users to click on each block, revealing more about the restaurant.
+4. Google Maps API
+* This lets users see where the fictional restaurant is using Google Maps and allows them to interact with the map.
+5. Bootstrap
+* Bootstrap has responsive functionality that was particularly useful when it came to the images on the 'Menu' section of the site.
+
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -22,13 +39,13 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ## Features Left to Implement
-Another feature idea
+Instead of a form, a live booking calander which shows what availability the restaurant has.
 
 ## Technologies Used
 1. Bootstrap
-2. Javascript
-3. jQuery
-4. Fontawesome
+2. Fontawesome
+3. Google Fonts
+4. Google Maps API
 
 ## JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -64,14 +81,18 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ## Content
-The text for section Y was copied from the Wikipedia article Z
+All content is fictional and the location of the restaurant is a random location in Hackney, East London.
 
 ## Media
-The majority of the photos used across the site were my own, however the images in the photo gallery were obtained from [https://unsplash.com/]
+All images are my own, taken from a trip to India in 2017.
+
+I have embedded an Action Against Hunger Youtube video on the 'Vision' section of the site.
 
 ## Acknowledgements
 I received inspiration for this project from looking at these vegetarian/thali inspired websites
 
-* [https://www.thethalirestaurant.co.uk/]
+* https://www.thethalirestaurant.co.uk/
 
-* [http://annajones.co.uk/]
+* http://annajones.co.uk/
+
+I used Bootstrap documentation and W3 schools tutorials to look up best coding practices. I have included links via comments for specific tutorials followed.

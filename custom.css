@@ -125,17 +125,8 @@ a:hover {
 a:visited, a:link, a:active{
 	text-decoration: none
 }
-/* Looked up - https://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link*/
+/* Looked up how to override default CSS - https://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link */
 
-/*#img-container {
-	display: flex;
-	/*padding: 20px;*/
-/*
-
-.in-row {
-	margin: 20px;
-	flex: 33.33%;
-}*/
 #flex {
 	display: flex;
 	justify-content: space-around;
