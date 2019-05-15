@@ -17,6 +17,12 @@ ul.nav {
 	font-size: 25px;
 }
 
+footer {
+	font-family: 'Sue Ellen Francisco', cursive;
+}
+
+/*Index */
+
 .jumbotron {
 	text-align: center;
 	background-image: url('images/thali.jpg');
@@ -39,15 +45,40 @@ ul.nav {
 	margin-bottom: 40px;
 }
 
-btn-lg {
+.btn-lg {
 	font-size: 1em;
 }
 
-footer {
-	font-family: 'Sue Ellen Francisco', cursive;
+.btn-lg span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
+.btn-lg span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-lg:hover span {
+  padding-right: 25px;
+}
+
+.btn-lg:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/*Animate button tutorial found here https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
+
 /*Menu CSS*/
+
 #jumbotron-menu {
 	background-image: url('images/eat.jpg');
 	background-size: cover;
@@ -56,6 +87,13 @@ footer {
     background-position: center bottom;
     padding: 250px;
 }
+
+/* Responsive gallery tutorial https://www.w3schools.com/css/css_image_gallery.asp */
+
+#gallery {
+	margin-top: 50px;
+}
+
 
 /*Vision CSS*/
 
