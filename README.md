@@ -122,14 +122,9 @@ I decided to test the website manually, I approached this from the viewpoint of 
 The Google Maps API originally worked, and then stopped working towards the end of development. This was fixed by signing up to Google Developers and assigning an API key in the script.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I have deployed this project to GitHub Pages - you can find the live version here: https://stellaexp.github.io/first-stream/index.html
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Alternatively, you can clone this repository and run it locally by opening up index.html.
 
 ## Credits
 I'd like to credit Code Institute and W3 schools.
@@ -145,7 +140,7 @@ All content is fictional and created by myself. The location of The Thali Rooms 
 * The menu image is my own design, created using Photoshop
 
 ## Acknowledgements
-I received inspiration for this project from looking at these vegetarian and thali inspired websites
+I received inspiration for this project from looking at these vegetarian and thali inspired websites:
 
 * https://www.thethalirestaurant.co.uk/
 * https://sakonis.co.uk/
