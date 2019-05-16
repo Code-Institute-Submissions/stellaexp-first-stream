@@ -67,18 +67,18 @@ I decided to test the website manually, I approached this from the viewpoint of 
 | Section       | Functionality | Is it working? Y/N  | If N, has it been fixed? |
 | ------------- |:-------------:| -------------------:| ------------------------:|
 |  Navbar       | Links to relevant page | Y | na |
-|  Navbar sticky | Always at top of screen when scrolling | Y | na |
-| Navbar responsive     |  Works in responsive mode | Y | na |
-| Jumbotron image | Loaded      |  Y | na |
-| Button | Links to vision.html      |  Y | na |
-| Fontawesome icons | Loaded     |  Y | na |
-| Button| Links to contact.html      |  Y | na |
-| Responsive| Responds on all different mobile sizes |  Y | na |
+|  Navbar sticky | Always at top of screen when scrolling | Y | |
+| Navbar responsive     |  Works in responsive mode | Y | |
+| Jumbotron image | Loaded      |  Y | |
+| Button | Links to vision.html      |  Y | |
+| Fontawesome icons | Loaded     |  Y | |
+| Button| Links to contact.html      |  Y | |
+| Responsive| Responds on all different mobile sizes |  Y | |
 
-### Vision (About)
+### Vision
 
-| Functionality       | Purpose | Is it working? Y/N  | If N, has it been fixed? |
-| ------------- |:-------------:| -----:|
+| Section       | Functionality | Is it working? Y/N  | If N, has it been fixed? |
+| ------------- |:-------------:| -------------------:| ------------------------:|
 |  Navbar       | Links to relevant page | Y | na |
 |  Navbar sticky | Always at top of screen when scrolling | Y | na |
 | Navbar responsive     |  Works in responsive mode | Y | na |
@@ -90,8 +90,8 @@ I decided to test the website manually, I approached this from the viewpoint of 
 
 ### Menu
 
-| Functionality       | Purpose | Is it working? Y/N  | If N, has it been fixed? |
-| ------------- |:-------------:| -----:|
+| Section       | Functionality | Is it working? Y/N  | If N, has it been fixed? |
+| ------------- |:-------------:| -------------------:| ------------------------:|
 |  Navbar       | Links to relevant page | Y | na |
 |  Navbar sticky | Always at top of screen when scrolling | Y | na |
 | Navbar responsive     |  Works in responsive mode | Y | na |
@@ -102,8 +102,8 @@ I decided to test the website manually, I approached this from the viewpoint of 
 
 ### Contact
 
-| Functionality       | Purpose | Is it working? Y/N  | If N, has it been fixed? |
-| ------------- |:-------------:| -----:|
+| Section       | Functionality | Is it working? Y/N  | If N, has it been fixed? |
+| ------------- |:-------------:| -------------------:| ------------------------:|
 |  Navbar       | Links to relevant page | Y | na |
 |  Navbar sticky | Always at top of screen when scrolling | Y | na |
 | Navbar responsive     |  Works in responsive mode | Y | na |
@@ -112,14 +112,6 @@ I decided to test the website manually, I approached this from the viewpoint of 
 | Gallery | Images loaded and responsive   |  Y | na |
 | Responsive| Responds on all different mobile sizes |  Y | na |
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-## Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 ### Bugs
 The Google Maps API originally worked, and then stopped working towards the end of development. This was fixed by signing up to Google Developers and assigning an API key in the script.
