@@ -114,6 +114,15 @@ footer {
 
 #vision {
 	padding: 50px;
+	padding-bottom: 40px;
+}
+
+h4 {
+	padding-bottom: 40px;
+}
+
+.square-box {
+	cursor: pointer;
 }
 
 
@@ -147,7 +156,7 @@ a:visited, a:link, a:active{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -158,6 +167,11 @@ a:visited, a:link, a:active{
   	line-height: 20px;
   	padding-top: 20px;
   	padding-bottom: 20px;
+}
+
+#aah {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 /*Menu CSS*/
 
