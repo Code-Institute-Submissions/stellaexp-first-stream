@@ -25,14 +25,14 @@ footer {
 
 .jumbotron {
 	text-align: center;
-	background-image: url('images/thali.jpg');
+	background-image: url('../images/thali.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    color: white;
-    padding: 200px;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding: 200px;
 }
 
 .jumbotron h1 {
@@ -80,12 +80,12 @@ footer {
 /*Menu CSS*/
 
 #jumbotron-menu {
-	background-image: url('images/eat.jpg');
+	background-image: url('../images/eat.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
-    background-position: center bottom;
-    padding: 250px;
+  background-position: center bottom;
+  padding: 250px;
 }
 
 /* Responsive gallery tutorial https://www.w3schools.com/css/css_image_gallery.asp */
@@ -98,7 +98,7 @@ footer {
 /*Vision CSS*/
 
 #jumbotron-vision {
-	background-image: url('images/sayhi.jpg');
+	background-image: url('../images/sayhi.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
     -webkit-background-size: cover;
