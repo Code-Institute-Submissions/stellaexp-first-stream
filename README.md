@@ -18,10 +18,11 @@ As a user, I want to:
 3. I need to see where the restaurant is 
 4. I would like to be able to book a table via a form (or similar)
 
-## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+### Wireframes
 
-## Existing Features
+Are in wireframes folder of project
+
+## Features
 1. Sticky Navbar
 * However far the user scrolls down, they will always have navigation at the top of their screen.
 ** On mobile, it utilises Bootstraps responsive 'Hamburger' menu
@@ -64,7 +65,7 @@ I decided to test the website manually, I approached this from the viewpoint of 
 ### Index (Home page)
 
 | Section       | Functionality | Is it working? Y/N  | If N, has it been fixed? |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -------------------:| ------------------------:|
 |  Navbar       | Links to relevant page | Y | na |
 |  Navbar sticky | Always at top of screen when scrolling | Y | na |
 | Navbar responsive     |  Works in responsive mode | Y | na |
