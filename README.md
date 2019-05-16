@@ -1,6 +1,6 @@
 # Stream One - The Thali Rooms
 
-'The Thali Rooms' was created for the Code Institute Stream One project. We were assigned the the task of creating a website, using Front-End Technologies. There were two options given in the brief - I went for the latter option of creating a project of my choosing. I decided to base this on a fictional restaurant, which I named The Thali Rooms.
+'The Thali Rooms' was created for the Code Institute Stream One project. We were assigned the the task of creating a website, using Front-End Technologies. There were two options given in the brief - I went for the latter and recommend option of creating a project of my choosing. I decided to base this on a fictional restaurant, which I named The Thali Rooms.
 
 ## UX
 
@@ -8,19 +8,21 @@
 
 My UX process was to acertain what a user would expect to see from a restaurant website. I started by researching what similar restaurants included on their websites and constructed some wireframes based on my research and knowledge.
 
-The website was aimed at a fictional audience, who are interested in Indian food, with a particular focus on vegetarian and vegan cuisine, with a green ethos. The website should mainly be an information platform, with the restaurants location, and a booking form that submits for a specified number of people. It was integral that the site was simple, clean and intuitive.
+The website was aimed at a fictional audience, who are interested in Indian style food, with a particular focus on vegetarian and vegan cuisine. The main ethos of the business was to be green and ethically focused - the design of the website was based around this.
+
+The website should mainly be an information platform, with the location and a booking form that submits for a specified number of people. It was integral that the site was simple, clean and intuitive.
 
 ### User stories
 
 As a user, I want to:
-1. Access the website to read about the restaurant, to see what ethos they have etc
-2. I want to read the menu to see what food they have available
-3. I need to see where the restaurant is 
-4. I would like to be able to book a table via a form (or similar)
+1. Access the website to read about the restaurant, see what kind of cuisine they have and understand their ethos (be that corporate, relaxed etc).
+2. I want to read the menu to see what food they have available.
+3. I need to find out where the restaurant is.
+4. I would like to be able to book a table via a form (or similar).
 
 ### Wireframes
 
-Are in wireframes folder of project
+These can be found in wireframes folder of project. I used Balsamiq to create these.
 
 ## Features
 1. Sticky Navbar
@@ -42,7 +44,7 @@ Are in wireframes folder of project
 * Bootstrap has responsive functionality that was particularly useful when it came to the images on the 'Menu' section of the site.
 
 ## Features Left to Implement
-Instead of a form, a live booking calander which shows what availability the restaurant has. I'd also like to include an events calanders that users can look up what's going on in the coming weeks and months. 
+On the back end of the form, I'd like to implement booking database that will store all bookings and inform users of availability. I'd like to include an events calander that users can look up what's going on in the coming weeks and months. 
 
 ## Technologies Used
 1. Bootstrap
@@ -112,7 +114,6 @@ I decided to test the website manually, I approached this from the viewpoint of 
 | Gallery | Images loaded and responsive   |  Y | na |
 | Responsive| Responds on all different mobile sizes |  Y | na |
 
-
 ### Bugs
 The Google Maps API originally worked, and then stopped working towards the end of development. This was fixed by signing up to Google Developers and assigning an API key in the script.
 
@@ -142,7 +143,8 @@ All content is fictional and created by myself. The location of The Thali Rooms 
 ## Acknowledgements
 I received inspiration for this project from looking at these vegetarian and thali inspired websites
 
-* https://www.thethalirestaurant.co.uk/
-* http://annajones.co.uk/
+* (https://www.thethalirestaurant.co.uk/)
+* (https://sakonis.co.uk/)
+* (http://annajones.co.uk/)
 
 I used Bootstrap documentation and W3 schools tutorials to look up best coding practices. I have included links via comments for specific tutorials followed.
